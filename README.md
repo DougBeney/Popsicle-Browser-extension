@@ -1,5 +1,6 @@
 # Popsicle---A-Minimalistic-New-Tab-For-Google-Chrome
 
+<<<<<<< HEAD
 [Check out Popsicle in the Chrome Web Store](https://chrome.google.com/webstore/detail/popsicle/loigpbgkmjjhjodnhlpmbjmojchpdjih?hl=en-US)
 
 ## A very minimal New Tab extension for Google Chrome.
