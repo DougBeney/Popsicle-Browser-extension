@@ -10,6 +10,15 @@ Popsicle gives you a minimal new tab page, with new, inspiring quotes every time
 
 In the settings page, you can fully customize this plugin. Choose from 35 different quote categories, completely tweak the color scheme, and add a background image.
 
+## Todo
+
+I have quite a few ideas I'd like to implement in the future:
+
+- **User Themes** - Be able to search and download themes made by Popsicle users
+- **User Plugins** - Be able to search and download plugins made by Popsicle users. What is a plugin, you might ask? A plugin will allow you to add various widgets to your new tab page. Ex. a Bitcoin price ticker, weather in your local area, sales analytics of your products, and more.
+- **More Than Two Rows Of Links** - Be able to add additional rows/columns to categorize all of your most important links.
+- **Custom Fonts & CSS** - This feature will open an entire new world of creative possibilities in Popsicle.
+
 ## Screenshots
 
 ![Screenshot 1](/screenshots/screen_1.png)
