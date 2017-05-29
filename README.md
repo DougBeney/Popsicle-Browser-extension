@@ -1,4 +1,4 @@
-# Popsicle---A-Minimalistic-New-Tab-For-Google-Chrome
+# Popsicle - An Open Source 'New Tab' Extension For Google Chrome
 
 [Check out Popsicle in the Chrome Web Store](https://chrome.google.com/webstore/detail/popsicle/loigpbgkmjjhjodnhlpmbjmojchpdjih?hl=en-US)
 
