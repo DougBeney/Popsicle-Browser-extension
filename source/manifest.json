@@ -3,7 +3,7 @@
 
 	"name": "Popsicle",
 	"description": "A very minimal New Tab extension for Google Chrome.",
-	"version": "0.5",
+	"version": "0.7",
 	"options_page": "settings.html",
 
 	"author": "Doug Beney",
@@ -24,12 +24,5 @@
 	},
 	"permissions": [
 		 "storage"
-    ],
-	"content_scripts": [
-	  {
-	 	"matches": ["*://*/_/chrome/newtab*"],
-		"css": ["/static/css/main.css"],
-		"js": ["/static/js/jquery-3.2.1.min.js", "/static/js/main.js"]
-	  }
-	]
+    ]
 }
