@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+
+	"name": "Popsicle",
+	"description": "A very minimal home / new tab page for Google Chrome",
+	"version": "1.0",
+	"options_page": "settings.html",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"incognito": "split",
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"permissions": [
+		 "storage"
+    ],
+	"content_scripts": [
+	  {
+	 	"matches": ["*://*/_/chrome/newtab*"],
+		"css": ["/static/css/main.css"],
+		"js": ["/static/js/jquery-3.2.1.min.js", "/static/js/main.js"]
+	  }
+	]
+}
