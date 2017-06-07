@@ -1,0 +1,8 @@
+body {
+  width: 200px;
+  font-family: "Amiri", georgia, serif;
+  color: #626262;
+  background-color: rgba(232, 232, 232, 0.3); }
+  body .popup h1 {
+    color: #85bce6;
+    text-align: center; }

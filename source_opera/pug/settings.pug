@@ -1,0 +1,88 @@
+doctype
+html(lang="en")
+    head
+        title Popsicle Settings
+        meta(charset="UTF8")
+        meta(name="viewport", content="width=device-width,initial-scale=1")
+        link(rel="stylesheet", href="/static/css/main.css")
+        link(rel="stylesheet", href="/static/css/range.css")
+        link(rel="stylesheet", href="/static/css/slider.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Amiri")
+        
+        style.
+            body{
+                opacity: 1;
+            }
+    body
+        .cover
+        #message Settings Saved
+        .container.settings
+            img(src="/static/icon/icon.png")
+            h1 Popsicle Settings
+            hr
+            #category_area
+            hr
+            h2 Color Settings    
+            .colorselector
+                input(id="foo",class="jscolor", name="bg", value="rgba(232, 232, 232, 0.3)")
+                label.middle Background Color
+            br
+                
+            .colorselector
+                input(class="jscolor", name="text", value="rgb(98, 98, 98)")
+                label.middle Text Color
+            br
+                
+            .colorselector
+                input(class="jscolor", name="quote", value="rgb(64, 64, 64)")
+                label.middle Quote Text Color
+            br
+            .colorselector
+                input(class="jscolor", name="link", value="rgb(64, 64, 64)")
+                label.middle Link Color
+            br
+            hr
+            .links
+                h2 Links
+                .col1
+                    .row
+                        h3 Column 1
+                        .col.col--2-of-2    
+                            label.middle Column Name
+                            input(type="text", name="column_label", placeholder="ex. Social Media")
+                    .row.link-list
+                                    
+                    button.addLink Add Link
+                .col2
+                    .row
+                        h3 Column 2
+                        .col.col--2-of-2    
+                            label.middle Column Name
+                            input(type="text", name="column_label", placeholder="ex. Social Media")
+                    .row.link-list
+                                
+                    button.addLink Add Link
+            hr
+            .fileupload
+                h2 Enable Background Image
+                img(src="http://placehold.it/500x200")#placeholderimg
+                label.switch
+                    input(type="checkbox")#bgenabled
+                    .slider.round
+                input(type="file")#bgupload
+                h3 Image Opacity
+                .range-slider
+                    input(type="range", min="0", max="100", value="100", step="1").range-slider__range.opacity
+                    span.range-slider__value 100
+            hr
+            
+            button.save.btn-default Save
+            button.reset.btn-default Reset Settings
+            
+        script(type="text/javascript", src="/static/js/data.js")
+        script(type="text/javascript", src="/static/js/jquery-3.2.1.min.js")
+        script(type="text/javascript", src="/static/js/jscolor.min.js")
+        script(type="text/javascript", src="/static/js/range.js")
+        script(type="text/javascript", src="/static/js/settings.js")
+            
+        

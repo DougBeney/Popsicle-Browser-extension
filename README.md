@@ -1,10 +1,12 @@
-![Popsicle For Google Chrome](/screenshots/promotional3.png)
+![Popsicle For Google Chrome and Opera](/screenshots/promotional3.png)
 
-# Popsicle - An Open Source 'New Tab' Extension For Google Chrome
+# Popsicle - An Open Source 'New Tab' Extension For Google Chrome & Opera
 
 [Check out Popsicle in the Chrome Web Store](https://chrome.google.com/webstore/detail/popsicle/loigpbgkmjjhjodnhlpmbjmojchpdjih?hl=en-US)
 
-## A very minimal New Tab extension for Google Chrome.
+[Check out Popsicle in the Opera Web Store](#) (Opera extension is currently under moderation and will be live soon.)
+
+## A very minimal New Tab extension for Google Chrome & Opera.
 
 Popsicle gives you a minimal new tab page, with new, inspiring quotes every time you open a new tab.
 
