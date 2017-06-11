@@ -3,7 +3,7 @@
 
 	"name": "Popsicle",
 	"description": "A very minimal New Tab extension for Opera.",
-	"version": "0.75",
+	"version": "0.75.5",
 	"options_page": "settings.html",
 	"author": "Doug Beney",
 
@@ -22,6 +22,7 @@
 	"incognito": "split",
 	"permissions": [
 		 "storage",
-		 "tabs"
+		 "tabs",
+		 "<all_urls>"
     ]
 }
