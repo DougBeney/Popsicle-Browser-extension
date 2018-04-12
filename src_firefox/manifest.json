@@ -4,13 +4,32 @@
 	"name": "Popsicle: A Minimalist New Tab Replacement",
 	"description": "A very minimal New Tab extension for Google Chrome.",
 	"version": "0.76",
-	"options_page": "settings.html",
 
 	"author": "Doug Beney",
 
-	"icons": {
-		"16": "/static/icon/icon16.png",
-		"48": "/static/icon/icon48.png",
-		"128": "/static/icon/icon128.png"
+	"options_ui": {
+		"page": "settings.html",
+		"open_in_tab": true
 	},
+
+	"icons": {
+		"16": "/icon/icon16.png",
+		"48": "/icon/icon48.png",
+		"128": "/icon/icon128.png"
+	},
+
+	"applications": {
+		"gecko": {
+			"id": "addon@dougie.io",
+			"strict_min_version": "42.0"
+		}
+	},
+
+	"chrome_url_overrides" : {
+		"newtab": "index.html"
+	},
+
+	"permissions": [
+		 "storage"
+	]
 }

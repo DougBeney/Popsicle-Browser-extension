@@ -9,20 +9,23 @@
 	"author": "Doug Beney",
 
 	"icons": {
-		"16": "/static/icon/icon16.png",
-		"48": "/static/icon/icon48.png",
-		"128": "/static/icon/icon128.png"
+		"16": "/icon/icon16.png",
+		"48": "/icon/icon48.png",
+		"128": "/icon/icon128.png"
 	},
 
 	"browser_action": {
-		"default_icon": "/static/icon/icon.png",
+		"default_icon": "/icon/icon.png",
 		"default_popup": "popup.html"
 	},
+
 	"incognito": "split",
+
 	"chrome_url_overrides": {
 		"newtab": "index.html"
 	},
+
 	"permissions": [
 		 "storage"
-    ]
+	]
 }
