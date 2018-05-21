@@ -2,3 +2,11 @@ node_modules/
 src_*/static/
 src_*/*.html
 *.zip
+
+src_*/css/
+src_*/icon/
+src_*/js/
+src_*/json/
+src_*/index.html
+src_*/popup.html
+src_*/settings.html
